@@ -1,0 +1,22 @@
+{
+    "id": "com.sap.sample.tip1",
+    "version": "1.0.0",
+    "name": "tip1",
+    "description": "A tip1",
+    "newInstancePrefix": "tip1",
+    "vendor": "SAP",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "com-sap-sample-tip1",
+            "url": "https://i18n-1257745828.cos.ap-shanghai.myqcloud.com/sap/tip1/tip1/tip1.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {},
+    "methods": {},
+    "events": {}
+}

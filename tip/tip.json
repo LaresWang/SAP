@@ -1,0 +1,43 @@
+{
+    "id": "com.sap.sample.tip",
+    "version": "1.0.4",
+    "name": "tip",
+    "description": "A tip",
+    "newInstancePrefix": "tip",
+    "vendor": "SAP",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "com-sap-sample-tip",
+            "url": "https://i18n-1257745828.cos.ap-shanghai.myqcloud.com/sap/tip/tip/tip.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "opacity": {
+            "type": "number",
+            "description": "Opacity",
+            "default": 1
+        },
+        "width": {
+            "type": "integer",
+            "default": 500
+        },
+        "height": {
+            "type": "integer",
+            "default": 250
+        }
+    },
+    "methods": {},
+    "events": {
+        "onClick": {
+            "description": "Called when the user clicks "
+        },
+        "onDragstart": {
+            "description": "Called when the user drag"
+        }
+    }
+}

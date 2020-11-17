@@ -1,0 +1,65 @@
+{
+    "id": "com.sap.sample.modal3",
+    "version": "1.0.0",
+    "name": "Modal3 Box",
+    "description": "A modal3 box",
+    "newInstancePrefix": "modal3",
+    "vendor": "SAP",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "com-sap-sample-modal3",
+            "url": "https://i18n-1257745828.cos.ap-shanghai.myqcloud.com/sap/modal3/modal3/modal3.js?t=123",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "Modal3": {
+            "type": "string",
+            "description": "Background Modal3",
+            "default": "blue"
+        },
+        "opacity": {
+            "type": "number",
+            "description": "Opacity",
+            "default": 1
+        },
+        "width": {
+            "type": "integer",
+            "default": 500
+        },
+        "height": {
+            "type": "integer",
+            "default": 250
+        }
+    },
+    "methods": {
+        "setModal": {
+            "description": "Sets the background Modal3.",
+            "parameters": [
+                {
+                    "name": "newModal",
+                    "type": "string",
+                    "description": "The new background Modal3"
+                }
+            ],
+            "body": "this.Modal3 = newModal;"
+        },
+        "getModal": {
+            "returnType": "string",
+            "description": "Returns the background Modal3.",
+            "body": "return this.Modal3;"
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "Called when the user clicks the modal3 Box."
+        },
+        "onDragstart": {
+            "description": "Called when the user drag the modal3 Box."
+        }
+    }
+}

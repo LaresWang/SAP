@@ -1,0 +1,40 @@
+{
+    "id": "com.sap.sample.table",
+    "version": "1.1.2",
+    "name": "table",
+    "description": "A table",
+    "newInstancePrefix": "table",
+    "vendor": "SAP",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "com-sap-sample-table",
+            "url": "https://i18n-1257745828.cos.ap-shanghai.myqcloud.com/sap/table/table/table.js?t=123456781013",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "tabledata": {
+            "type": "string",
+            "description": "tabledata",
+            "default": "[]"
+        }
+    },
+    "methods": {
+        "setModal": {
+            "description": "Sets the table data.",
+            "parameters": [
+                {
+                    "name": "newModal",
+                    "type": "string",
+                    "description": "The new data"
+                }
+            ],
+            "body": "this.tabledata = newModal;"
+        }
+    },
+    "events": {}
+}

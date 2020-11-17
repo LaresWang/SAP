@@ -1,0 +1,65 @@
+{
+    "id": "com.sap.sample.modal2",
+    "version": "1.0.1",
+    "name": "Modal2 Box",
+    "description": "A modal2 box",
+    "newInstancePrefix": "modal2",
+    "vendor": "SAP",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "com-sap-sample-modal2",
+            "url": "https://i18n-1257745828.cos.ap-shanghai.myqcloud.com/sap/modal2/modal2/modal2.js?t=121233",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "Modal2": {
+            "type": "string",
+            "description": "Background Modal2",
+            "default": "blue"
+        },
+        "opacity": {
+            "type": "number",
+            "description": "Opacity",
+            "default": 1
+        },
+        "width": {
+            "type": "integer",
+            "default": 500
+        },
+        "height": {
+            "type": "integer",
+            "default": 250
+        }
+    },
+    "methods": {
+        "setModal": {
+            "description": "Sets the background Modal2.",
+            "parameters": [
+                {
+                    "name": "newModal",
+                    "type": "string",
+                    "description": "The new background Modal2"
+                }
+            ],
+            "body": "this.Modal2 = newModal;"
+        },
+        "getModal": {
+            "returnType": "string",
+            "description": "Returns the background Modal2.",
+            "body": "return this.Modal2;"
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "Called when the user clicks the modal2 Box."
+        },
+        "onDragstart": {
+            "description": "Called when the user drag the modal2 Box."
+        }
+    }
+}
